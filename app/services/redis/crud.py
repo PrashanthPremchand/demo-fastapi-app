@@ -1,4 +1,4 @@
-from redis import r
+from app.services.redis.redis import r
 
 def set_user(name: str):
     r.set("user", name)

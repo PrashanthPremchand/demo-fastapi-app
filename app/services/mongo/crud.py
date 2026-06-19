@@ -1,4 +1,4 @@
-from models import User
+from app.services.mongo.models import User
 
 def create_user(name: str, email: str):
     user = User(name=name, email=email)
